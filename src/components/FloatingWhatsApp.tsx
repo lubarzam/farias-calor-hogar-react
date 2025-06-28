@@ -1,15 +1,24 @@
 
-import { Phone } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const FloatingWhatsApp = () => {
+  const handleWhatsAppClick = () => {
+    const phoneNumber = '56912345678';
+    const message = 'Hola, me gustaría solicitar información sobre sus servicios de calefacción.';
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    
+    window.open(whatsappUrl, '_blank');
+  };
+
   return (
     <div className="fixed bottom-6 right-6 z-40">
       <button
-        onClick={() => window.open('https://wa.me/56912345678', '_blank')}
+        onClick={handleWhatsAppClick}
         className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 flame-glow"
         aria-label="Contactar por WhatsApp"
       >
-        <Phone className="w-6 h-6" />
+        <MessageCircle className="w-6 h-6" />
       </button>
       
       {/* Pulse animation */}
