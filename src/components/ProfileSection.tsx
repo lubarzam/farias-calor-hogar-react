@@ -1,4 +1,6 @@
 
+import { Phone } from 'lucide-react';
+
 const ProfileSection = () => {
   return (
     <section id="perfil" className="py-20 bg-white">
