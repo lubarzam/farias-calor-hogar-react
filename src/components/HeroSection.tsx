@@ -41,7 +41,7 @@ const HeroSection = () => {
             <Button 
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-charcoal px-8 py-4 text-lg"
+              className="border-2 border-white bg-white/10 text-white hover:bg-white hover:text-charcoal px-8 py-4 text-lg backdrop-blur-sm"
               onClick={() => document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' })}
             >
               <Settings className="w-5 h-5 mr-2" />
