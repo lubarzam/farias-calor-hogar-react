@@ -8,31 +8,35 @@ const ServicesSection = () => {
       icon: Settings,
       title: 'Instalación de Estufas y Cañones',
       description: 'Instalación profesional de estufas a leña, pellets y cañones calefactores multimarcas con garantía de funcionamiento.',
-      features: ['Instalación certificada', 'Cañerías y conductos', 'Pruebas de seguridad', 'Garantía incluida']
+      features: ['Instalación certificada', 'Cañerías y conductos', 'Pruebas de seguridad', 'Garantía incluida'],
+      image: 'https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     },
     {
       icon: Wrench,
       title: 'Mantención y Limpieza',
       description: 'Servicio completo de mantención preventiva y limpieza profunda para optimizar el rendimiento de tu calefactor.',
-      features: ['Limpieza de conductos', 'Revisión de componentes', 'Ajustes y calibración', 'Informe técnico']
+      features: ['Limpieza de conductos', 'Revisión de componentes', 'Ajustes y calibración', 'Informe técnico'],
+      image: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777189?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     },
     {
       icon: Settings,
       title: 'Reparaciones Especializadas',
       description: 'Diagnóstico y reparación de fallas en todo tipo de sistemas de calefacción a leña y pellets.',
-      features: ['Diagnóstico preciso', 'Repuestos originales', 'Reparación inmediata', 'Soporte post-servicio']
+      features: ['Diagnóstico preciso', 'Repuestos originales', 'Reparación inmediata', 'Soporte post-servicio'],
+      image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     },
     {
       icon: ShoppingCart,
       title: 'Venta de Insumos (Próximamente)',
       description: 'Pronto contaremos con venta de insumos, repuestos y kits completos de instalación.',
       features: ['Kits de instalación', 'Repuestos originales', 'Accesorios', 'Asesoría técnica'],
+      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       isComingSoon: true
     }
   ];
 
   return (
-    <section id="servicios" className="py-20 bg-white">
+    <section id="servicios" className="py-20 bg-gradient-to-br from-warm-light to-warm">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-charcoal mb-4">
@@ -48,23 +52,38 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <Card 
               key={index} 
-              className={`card-hover ${service.isComingSoon ? 'opacity-75' : ''}`}
+              className={`card-hover overflow-hidden bg-white shadow-lg ${service.isComingSoon ? 'opacity-90' : ''}`}
             >
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-flame/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <service.icon className="w-8 h-8 text-flame" />
+              {/* Service Image */}
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                
+                {/* Icon overlay */}
+                <div className="absolute top-4 right-4 w-12 h-12 bg-flame/90 rounded-full flex items-center justify-center backdrop-blur-sm">
+                  <service.icon className="w-6 h-6 text-white" />
                 </div>
-                <CardTitle className="text-xl text-charcoal flex items-center justify-center gap-2">
+
+                {/* Coming Soon Badge */}
+                {service.isComingSoon && (
+                  <div className="absolute top-4 left-4 bg-flame text-white px-3 py-1 rounded-full text-sm font-medium">
+                    Próximamente
+                  </div>
+                )}
+              </div>
+
+              <CardHeader className="pb-4">
+                <CardTitle className="text-xl text-charcoal">
                   {service.title}
-                  {service.isComingSoon && (
-                    <span className="text-xs bg-flame text-white px-2 py-1 rounded-full">
-                      Próximamente
-                    </span>
-                  )}
                 </CardTitle>
               </CardHeader>
+              
               <CardContent>
-                <CardDescription className="text-gray-600 mb-6 text-center">
+                <CardDescription className="text-gray-600 mb-6">
                   {service.description}
                 </CardDescription>
                 <ul className="space-y-3">
@@ -85,7 +104,7 @@ const ServicesSection = () => {
             ¿Necesitas una cotización personalizada?
           </p>
           <button 
-            className="bg-flame hover:bg-flame-dark text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200"
+            className="bg-flame hover:bg-flame-dark text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 flame-glow"
             onClick={() => window.open('https://wa.me/56912345678', '_blank')}
           >
             Solicitar Cotización Gratuita
