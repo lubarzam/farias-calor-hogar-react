@@ -64,7 +64,7 @@ const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
-              <X className="w-6 h-6 text-charcoal" />
+              <X className="w-6 h-6 text-white" />
             ) : (
               <Menu className="w-6 h-6 text-charcoal" />
             )}
@@ -73,21 +73,24 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200 bg-white">
-            <nav className="flex flex-col space-y-4">
+          <div className="md:hidden py-4 border-t border-gray-600 bg-charcoal shadow-lg">
+            <nav className="flex flex-col space-y-4 px-4">
               {menuItems.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-charcoal hover:text-flame transition-colors duration-200 font-medium"
+                  className="text-white hover:text-flame transition-colors duration-200 font-medium py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
                 </a>
               ))}
               <Button 
-                className="bg-flame hover:bg-flame-dark text-white w-full mt-4"
-                onClick={() => window.open('https://wa.me/56912345678', '_blank')}
+                className="bg-flame hover:bg-flame-dark text-white w-full mt-4 py-3"
+                onClick={() => {
+                  window.open('https://wa.me/56912345678', '_blank');
+                  setIsMenuOpen(false);
+                }}
               >
                 <Phone className="w-4 h-4 mr-2" />
                 Contactar
