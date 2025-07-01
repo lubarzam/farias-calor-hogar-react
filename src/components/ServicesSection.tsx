@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Settings, Wrench, ShoppingCart } from 'lucide-react';
 
@@ -9,14 +8,14 @@ const ServicesSection = () => {
       title: 'Instalación de Estufas y Cañones',
       description: 'Instalación profesional de estufas a leña, pellets y cañones calefactores multimarcas con garantía de funcionamiento.',
       features: ['Instalación certificada', 'Cañerías y conductos', 'Pruebas de seguridad', 'Garantía incluida'],
-      image: 'https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     },
     {
       icon: Wrench,
       title: 'Mantención y Limpieza',
       description: 'Servicio completo de mantención preventiva y limpieza profunda para optimizar el rendimiento de tu calefactor.',
       features: ['Limpieza de conductos', 'Revisión de componentes', 'Ajustes y calibración', 'Informe técnico'],
-      image: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777189?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     },
     {
       icon: Settings,
@@ -30,7 +29,7 @@ const ServicesSection = () => {
       title: 'Venta de Insumos (Próximamente)',
       description: 'Pronto contaremos con venta de insumos, repuestos y kits completos de instalación.',
       features: ['Kits de instalación', 'Repuestos originales', 'Accesorios', 'Asesoría técnica'],
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       isComingSoon: true
     }
   ];
