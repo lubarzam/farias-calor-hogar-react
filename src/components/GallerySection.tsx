@@ -50,16 +50,11 @@ const GallerySection = () => {
       src: '/lovable-uploads/cb361b94-a948-4894-92f1-971ebe953035.png',
       alt: 'Mantención de estufa Italy 7000',
       title: 'Mantención Estufa Italy 7000'
-    },
-    {
-      src: '/lovable-uploads/989ceb14-2cbc-480e-abae-78b969ff57ca.png',
-      alt: 'Equipo de trabajo Arnesu con vehículo de servicio',
-      title: 'Equipo Profesional Arnesu'
     }
   ];
 
   return (
-    <section id="galeria" className="py-20 bg-warm">
+    <section id="galeria" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-charcoal mb-4">

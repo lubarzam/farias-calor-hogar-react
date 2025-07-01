@@ -11,6 +11,7 @@ const Header = () => {
     { name: 'Servicios', href: '#servicios' },
     { name: 'Galería', href: '#galeria' },
     { name: 'Perfil', href: '#perfil' },
+    { name: 'Testimonios', href: '#testimonios' },
     { name: 'Contacto', href: '#contacto' },
   ];
 
@@ -72,7 +73,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200">
+          <div className="md:hidden py-4 border-t border-gray-200 bg-white">
             <nav className="flex flex-col space-y-4">
               {menuItems.map((item) => (
                 <a

@@ -7,7 +7,7 @@
 
 @layer base {
   :root {
-    --background: 255 248 240; /* warm background */
+    --background: 255 255 255; /* Cambio a blanco puro para evitar amarillo */
     --foreground: 74 85 104; /* charcoal text del logo */
 
     --card: 255 255 255;
@@ -19,10 +19,10 @@
     --primary: 230 90 0; /* flame orange del logo */
     --primary-foreground: 255 255 255;
 
-    --secondary: 247 243 237; /* warm-dark */
+    --secondary: 248 250 252; /* Cambio a un gris muy claro */
     --secondary-foreground: 74 85 104;
 
-    --muted: 247 243 237;
+    --muted: 248 250 252;
     --muted-foreground: 115 115 115;
 
     --accent: 255 122 51; /* flame-light */
@@ -75,7 +75,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-inter;
+    @apply bg-white text-foreground font-inter; /* Forzar fondo blanco */
   }
 
   html {
