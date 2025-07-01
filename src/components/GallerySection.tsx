@@ -7,34 +7,54 @@ const GallerySection = () => {
 
   const galleryImages = [
     {
-      src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      alt: 'Instalación de estufa a leña en living',
-      title: 'Instalación Residencial'
+      src: '/lovable-uploads/80db0da0-1e74-4812-82fc-74ea6275c9ce.png',
+      alt: 'Estufa a pellets instalada en casa residencial',
+      title: 'Instalación Residencial - Estufa a Pellets'
     },
     {
-      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      alt: 'Cañón calefactor instalado',
-      title: 'Cañón Calefactor'
+      src: '/lovable-uploads/b5a19412-0c51-4322-8894-e26a0bc1a306.png',
+      alt: 'Estufa a pellets funcionando con llama visible',
+      title: 'Estufa a Pellets en Funcionamiento'
     },
     {
-      src: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      alt: 'Estufa a pellets moderna',
-      title: 'Estufa a Pellets'
+      src: '/lovable-uploads/adfee0ed-f7cd-4a1b-b8d8-71e8f7f998d1.png',
+      alt: 'Cocina a leña con horno instalada en cocina',
+      title: 'Cocina a Leña con Horno'
     },
     {
-      src: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      alt: 'Chimenea instalada profesionalmente',
-      title: 'Chimenea Tradicional'
+      src: '/lovable-uploads/74bdf934-82d5-46cf-9e0d-e47d0863cda4.png',
+      alt: 'Instalación de estufa en casa de madera',
+      title: 'Instalación en Casa de Madera'
     },
     {
-      src: 'https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      alt: 'Mantención de sistema de calefacción',
-      title: 'Servicio de Mantención'
+      src: '/lovable-uploads/bd533627-0cd8-4735-a49d-0bf1a4067f16.png',
+      alt: 'Estufa instalada con cañería completa',
+      title: 'Instalación con Sistema de Cañerías'
     },
     {
-      src: 'https://images.unsplash.com/photo-1502005229762-cf1b2da60c2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      alt: 'Instalación en casa de campo',
-      title: 'Casa de Campo'
+      src: '/lovable-uploads/7e90d829-89f2-4385-9d20-eac7b986f5b3.png',
+      alt: 'Sistema de cañerías exteriores instalado',
+      title: 'Sistema de Cañerías Exteriores'
+    },
+    {
+      src: '/lovable-uploads/fd7ac086-239a-48bd-b039-c6766cc0bcb2.png',
+      alt: 'Cañería de salida de humos en techo',
+      title: 'Instalación de Cañería en Techo'
+    },
+    {
+      src: '/lovable-uploads/fd8faa15-ff99-4c72-93ce-5c6d4d23cdd8.png',
+      alt: 'Proceso de mantención de estufa Slim 900',
+      title: 'Mantención Estufa Slim 900'
+    },
+    {
+      src: '/lovable-uploads/cb361b94-a948-4894-92f1-971ebe953035.png',
+      alt: 'Mantención de estufa Italy 7000',
+      title: 'Mantención Estufa Italy 7000'
+    },
+    {
+      src: '/lovable-uploads/989ceb14-2cbc-480e-abae-78b969ff57ca.png',
+      alt: 'Equipo de trabajo Arnesu con vehículo de servicio',
+      title: 'Equipo Profesional Arnesu'
     }
   ];
 
@@ -43,10 +63,10 @@ const GallerySection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-charcoal mb-4">
-            Galería de Trabajos
+            Galería de Trabajos Realizados
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Mira algunos de nuestros trabajos realizados. Cada instalación es única y 
+            Conoce algunos de nuestros trabajos reales. Cada instalación es única y 
             se adapta perfectamente a las necesidades de nuestros clientes
           </p>
         </div>
@@ -66,7 +86,7 @@ const GallerySection = () => {
                 />
                 <div className="absolute inset-0 bg-black/0 hover:bg-black/20 transition-colors duration-300 flex items-end">
                   <div className="p-4 text-white opacity-0 hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="font-semibold">{image.title}</h3>
+                    <h3 className="font-semibold text-sm">{image.title}</h3>
                   </div>
                 </div>
               </div>
