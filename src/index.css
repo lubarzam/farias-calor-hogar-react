@@ -3,69 +3,69 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Soluciones Farías Design System */
+/* Soluciones Farías Design System - Ajustado al logo */
 
 @layer base {
   :root {
     --background: 255 248 240; /* warm background */
-    --foreground: 44 44 44; /* charcoal text */
+    --foreground: 74 85 104; /* charcoal text del logo */
 
     --card: 255 255 255;
-    --card-foreground: 44 44 44;
+    --card-foreground: 74 85 104;
 
     --popover: 255 255 255;
-    --popover-foreground: 44 44 44;
+    --popover-foreground: 74 85 104;
 
-    --primary: 238 107 11; /* flame orange */
+    --primary: 230 90 0; /* flame orange del logo */
     --primary-foreground: 255 255 255;
 
-    --secondary: 245 240 232; /* warm-dark */
-    --secondary-foreground: 44 44 44;
+    --secondary: 247 243 237; /* warm-dark */
+    --secondary-foreground: 74 85 104;
 
-    --muted: 245 240 232;
+    --muted: 247 243 237;
     --muted-foreground: 115 115 115;
 
-    --accent: 255 139 61; /* flame-light */
-    --accent-foreground: 44 44 44;
+    --accent: 255 122 51; /* flame-light */
+    --accent-foreground: 74 85 104;
 
     --destructive: 239 68 68;
     --destructive-foreground: 255 255 255;
 
     --border: 229 231 235;
     --input: 229 231 235;
-    --ring: 238 107 11;
+    --ring: 230 90 0;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 26 26 26; /* charcoal-dark */
+    --background: 45 55 72; /* charcoal-dark del logo */
     --foreground: 255 248 240;
 
-    --card: 44 44 44;
+    --card: 74 85 104;
     --card-foreground: 255 248 240;
 
-    --popover: 44 44 44;
+    --popover: 74 85 104;
     --popover-foreground: 255 248 240;
 
-    --primary: 238 107 11;
+    --primary: 230 90 0;
     --primary-foreground: 255 255 255;
 
-    --secondary: 64 64 64;
+    --secondary: 90 107 125;
     --secondary-foreground: 255 248 240;
 
-    --muted: 64 64 64;
+    --muted: 90 107 125;
     --muted-foreground: 163 163 163;
 
-    --accent: 255 139 61;
-    --accent-foreground: 26 26 26;
+    --accent: 255 122 51;
+    --accent-foreground: 45 55 72;
 
     --destructive: 239 68 68;
     --destructive-foreground: 255 255 255;
 
-    --border: 64 64 64;
-    --input: 64 64 64;
-    --ring: 238 107 11;
+    --border: 90 107 125;
+    --input: 90 107 125;
+    --ring: 230 90 0;
   }
 }
 
@@ -85,7 +85,7 @@
 
 @layer components {
   .hero-gradient {
-    background: linear-gradient(135deg, rgba(238, 107, 11, 0.9) 0%, rgba(44, 44, 44, 0.8) 100%);
+    background: linear-gradient(135deg, rgba(230, 90, 0, 0.9) 0%, rgba(74, 85, 104, 0.8) 100%);
   }
   
   .card-hover {
@@ -93,6 +93,6 @@
   }
   
   .flame-glow {
-    box-shadow: 0 0 20px rgba(238, 107, 11, 0.3);
+    box-shadow: 0 0 20px rgba(230, 90, 0, 0.3);
   }
 }

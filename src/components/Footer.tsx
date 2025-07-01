@@ -10,11 +10,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-flame rounded-lg flex items-center justify-center">
-                <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center">
-                  <div className="w-3 h-4 bg-flame rounded-t-full"></div>
-                </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="w-12 h-12">
+                <img 
+                  src="/lovable-uploads/5e6f744f-2513-40f9-8edb-78a19212f936.png" 
+                  alt="Soluciones Farías Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h3 className="text-xl font-bold">Soluciones Farías</h3>

@@ -56,21 +56,21 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Custom Soluciones Farías colors
+				// Custom Soluciones Farías colors - ajustados al logo
 				flame: {
-					DEFAULT: '#EE6B0B',
-					light: '#FF8B3D',
-					dark: '#D4590A'
+					DEFAULT: '#E65A00', // Naranja más intenso del logo
+					light: '#FF7A33',   // Variante más clara 
+					dark: '#CC5200'     // Variante más oscura
 				},
 				charcoal: {
-					DEFAULT: '#2C2C2C',
-					light: '#404040',
-					dark: '#1A1A1A'
+					DEFAULT: '#4A5568', // Gris del logo
+					light: '#5A6B7D',   // Variante más clara
+					dark: '#2D3748'     // Variante más oscura
 				},
 				warm: {
-					DEFAULT: '#FFF8F0',
-					light: '#FFFCF7',
-					dark: '#F5F0E8'
+					DEFAULT: '#FFF8F0', // Fondo cálido que complementa
+					light: '#FFFCF7',   // Más claro
+					dark: '#F7F3ED'     // Más oscuro
 				}
 			},
 			borderRadius: {
