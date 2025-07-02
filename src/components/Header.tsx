@@ -35,7 +35,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-8">
             {menuItems.map((item) => (
               <a
                 key={item.name}
@@ -48,7 +48,7 @@ const Header = () => {
           </nav>
 
           {/* Contact Button */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             <Button 
               className="bg-flame hover:bg-flame-dark text-white"
               onClick={() => window.open('https://wa.me/56912345678', '_blank')}
@@ -60,7 +60,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2"
+            className="lg:hidden p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
@@ -73,7 +73,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-600 bg-charcoal shadow-lg">
+          <div className="lg:hidden py-4 border-t border-gray-600 bg-charcoal shadow-lg">
             <nav className="flex flex-col space-y-4 px-4">
               {menuItems.map((item) => (
                 <a
