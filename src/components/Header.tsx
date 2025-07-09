@@ -18,10 +18,10 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="h-12">
+            <div className="h-16 md:h-20">
               <img 
                 src="/lovable-uploads/e929c131-f0e8-45c3-ad76-7102cafac44c.png" 
                 alt="Farías Calefacción - Instalación de estufas a leña y pellets en La Araucanía"

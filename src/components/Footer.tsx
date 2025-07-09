@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <div className="h-12">
+              <div className="h-16">
                 <img 
                   src="/lovable-uploads/e929c131-f0e8-45c3-ad76-7102cafac44c.png" 
                   alt="Farías Calefacción - Instalación de estufas a leña y pellets en La Araucanía"
@@ -59,7 +59,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © {currentYear} Soluciones Farías. Todos los derechos reservados.
+            © {currentYear} Farías Calefacción. Todos los derechos reservados.
           </p>
           <p className="text-sm text-gray-500 mt-2">
             Técnico especialista en calefactores a leña y pellets multimarcas
