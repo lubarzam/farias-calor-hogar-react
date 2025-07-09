@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import fariasLogo from '@/assets/farias-logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,7 +24,7 @@ const Header = () => {
           <div className="flex items-center">
             <div className="h-10 md:h-12">
               <img 
-                src="/lovable-uploads/66a7031d-836f-42d7-8d4f-1bffe2e8d111.png" 
+                src={fariasLogo} 
                 alt="Farías Calefacción - Instalación de estufas a leña y pellets en La Araucanía"
                 className="h-full w-auto object-contain"
               />
