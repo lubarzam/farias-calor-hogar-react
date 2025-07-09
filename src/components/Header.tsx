@@ -20,17 +20,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <div className="w-12 h-12">
+          <div className="flex items-center">
+            <div className="h-12">
               <img 
-                src="/lovable-uploads/5e6f744f-2513-40f9-8edb-78a19212f936.png" 
-                alt="Soluciones Farías Logo"
-                className="w-full h-full object-contain"
+                src="/lovable-uploads/e929c131-f0e8-45c3-ad76-7102cafac44c.png" 
+                alt="Farías Calefacción - Instalación de estufas a leña y pellets en La Araucanía"
+                className="h-full w-auto object-contain"
               />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-charcoal">Soluciones Farías</h1>
-              <p className="text-xs text-gray-600">Especialistas en Calefacción</p>
             </div>
           </div>
 

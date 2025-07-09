@@ -10,17 +10,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="w-12 h-12">
+            <div className="flex items-center mb-4">
+              <div className="h-12">
                 <img 
-                  src="/lovable-uploads/5e6f744f-2513-40f9-8edb-78a19212f936.png" 
-                  alt="Soluciones Farías Logo"
-                  className="w-full h-full object-contain"
+                  src="/lovable-uploads/e929c131-f0e8-45c3-ad76-7102cafac44c.png" 
+                  alt="Farías Calefacción - Instalación de estufas a leña y pellets en La Araucanía"
+                  className="h-full w-auto object-contain"
                 />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">Soluciones Farías</h3>
-                <p className="text-sm text-gray-400">Especialistas en Calefacción</p>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
