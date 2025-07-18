@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import fariasLogo from '@/assets/farias-logo-nuevo.png';
+import stoveIcon from '@/assets/farias-stove-icon.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,13 +21,17 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo */}
-          <div className="flex items-center">
-            <div className="h-16 md:h-20 max-w-[300px] md:max-w-[400px]">
+          <div className="flex items-center space-x-3">
+            <div className="h-12 md:h-16 w-12 md:w-16">
               <img 
-                src={fariasLogo} 
+                src={stoveIcon} 
                 alt="Farías Calefacción - Instalación de estufas a leña y pellets en La Araucanía"
-                className="h-full w-auto object-contain"
+                className="h-full w-full object-contain"
               />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-flame font-bold text-lg md:text-2xl">Farías</span>
+              <span className="text-charcoal font-semibold text-sm md:text-base -mt-1">Calefacción</span>
             </div>
           </div>
 
