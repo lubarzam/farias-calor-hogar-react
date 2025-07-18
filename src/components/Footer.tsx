@@ -1,6 +1,6 @@
 
 import { Phone } from 'lucide-react';
-import fariasLogo from '@/assets/farias-logo.png';
+import fariasLogo from '@/assets/farias-logo-nuevo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
