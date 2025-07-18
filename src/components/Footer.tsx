@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <div className="h-10 max-w-[200px]">
+              <div className="h-12 max-w-[240px]">
                 <img 
                   src={fariasLogo} 
                   alt="Farías Calefacción - Instalación de estufas a leña y pellets en La Araucanía"
