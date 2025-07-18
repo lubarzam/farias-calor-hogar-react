@@ -22,7 +22,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="h-10 md:h-12">
+            <div className="h-8 md:h-10 max-w-[180px] md:max-w-[220px]">
               <img 
                 src={fariasLogo} 
                 alt="Farías Calefacción - Instalación de estufas a leña y pellets en La Araucanía"
