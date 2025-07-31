@@ -23,7 +23,7 @@ const ServicesSection = () => {
       title: 'Reparaciones Especializadas',
       description: 'Diagnóstico y reparación de fallas en todo tipo de sistemas de calefacción a leña y pellets.',
       features: ['Diagnóstico preciso', 'Repuestos originales', 'Reparación inmediata', 'Soporte post-servicio'],
-      image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      image: '/lovable-uploads/8183af67-1c30-4b6a-922a-964972560008.png'
     },
     {
       icon: ShoppingCart,
