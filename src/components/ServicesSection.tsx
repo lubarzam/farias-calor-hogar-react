@@ -8,7 +8,7 @@ const ServicesSection = () => {
       title: 'Instalación de Estufas y Cañones',
       description: 'Instalación profesional de estufas a leña, pellets y cañones calefactores multimarcas con garantía de funcionamiento.',
       features: ['Instalación certificada', 'Cañerías y conductos', 'Pruebas de seguridad', 'Garantía incluida'],
-      image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      image: '/lovable-uploads/a6c55fbb-754e-4515-a37e-d6a8611e1f75.png'
     },
     {
       icon: Wrench,
