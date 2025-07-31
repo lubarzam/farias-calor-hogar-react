@@ -1,6 +1,6 @@
 
 import { Phone } from 'lucide-react';
-import fariasLogo from '@/assets/farias-logo-nuevo.png';
+import stoveIcon from '@/assets/farias-stove-icon.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,13 +11,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center mb-4">
-              <div className="h-12 max-w-[240px]">
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="h-12 w-12">
                 <img 
-                  src={fariasLogo} 
+                  src={stoveIcon} 
                   alt="Farías Calefacción - Instalación de estufas a leña y pellets en La Araucanía"
-                  className="h-full w-auto object-contain"
+                  className="h-full w-full object-contain"
                 />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-flame font-bold text-xl">Farías</span>
+                <span className="text-white font-semibold text-base -mt-1">Calefacción</span>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
