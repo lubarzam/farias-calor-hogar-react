@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Settings, Wrench, ShoppingCart } from 'lucide-react';
+import estufasCombinadasImg from '@/assets/estufas-instaladas-combinadas.jpg';
 
 const ServicesSection = () => {
   const services = [
@@ -8,7 +9,7 @@ const ServicesSection = () => {
       title: 'Instalación de Estufas y Cañones',
       description: 'Instalación profesional de estufas a leña, pellets y cañones calefactores multimarcas con garantía de funcionamiento.',
       features: ['Instalación certificada', 'Cañerías y conductos', 'Pruebas de seguridad', 'Garantía incluida'],
-      image: '/lovable-uploads/a6c55fbb-754e-4515-a37e-d6a8611e1f75.png'
+      image: estufasCombinadasImg
     },
     {
       icon: Wrench,
@@ -54,11 +55,11 @@ const ServicesSection = () => {
               className={`card-hover overflow-hidden bg-white shadow-lg ${service.isComingSoon ? 'opacity-90' : ''}`}
             >
               {/* Service Image */}
-              <div className="relative h-80 overflow-hidden bg-gray-100">
+              <div className="relative h-80 overflow-hidden">
                 <img 
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-contain transition-transform duration-300 hover:scale-105"
+                  className="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                 
