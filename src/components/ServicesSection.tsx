@@ -54,11 +54,11 @@ const ServicesSection = () => {
               className={`card-hover overflow-hidden bg-white shadow-lg ${service.isComingSoon ? 'opacity-90' : ''}`}
             >
               {/* Service Image */}
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-64 overflow-hidden">
                 <img 
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  className="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                 
