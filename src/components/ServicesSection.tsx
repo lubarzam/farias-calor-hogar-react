@@ -16,7 +16,7 @@ const ServicesSection = () => {
       title: 'Mantención y Limpieza',
       description: 'Servicio completo de mantención preventiva y limpieza profunda para optimizar el rendimiento de tu calefactor.',
       features: ['Limpieza de conductos', 'Revisión de componentes', 'Ajustes y calibración', 'Informe técnico'],
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      image: '/lovable-uploads/934cd1b0-38af-4c69-a4d0-3581b6272b1e.png'
     },
     {
       icon: Settings,
