@@ -30,7 +30,7 @@ const ServicesSection = () => {
       title: 'Venta de Insumos (Próximamente)',
       description: 'Pronto contaremos con venta de insumos, repuestos y kits completos de instalación.',
       features: ['Kits de instalación', 'Repuestos originales', 'Accesorios', 'Asesoría técnica'],
-      image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/lovable-uploads/8a6c8039-c2b1-412d-b54a-8efa0ed73429.png',
       isComingSoon: true
     }
   ];
