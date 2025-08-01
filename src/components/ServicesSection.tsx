@@ -59,7 +59,7 @@ const ServicesSection = () => {
                 <img 
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105"
+                  className="w-full h-full object-cover object-top transition-transform duration-300 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                 
