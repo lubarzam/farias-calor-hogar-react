@@ -8,14 +8,14 @@ const ServicesSection = () => {
       icon: Settings,
       title: 'Instalación de Estufas y Cañones',
       description: 'Instalación profesional de estufas a leña, pellets y cañones calefactores multimarcas con garantía de funcionamiento.',
-      features: ['Instalación certificada', 'Cañerías y conductos', 'Pruebas de seguridad', 'Garantía incluida'],
+      features: ['Instalación certificada', 'Pruebas de seguridad', 'Inducción de uso',  'Garantía incluida'],
       image: estufasCombinadasImg
     },
     {
       icon: Wrench,
       title: 'Mantención y Limpieza',
       description: 'Servicio completo de mantención preventiva y limpieza profunda para optimizar el rendimiento de tu calefactor.',
-      features: ['Limpieza de conductos', 'Revisión de componentes', 'Ajustes y calibración', 'Informe técnico'],
+      features: ['Limpieza de conductos', 'Revisión de componentes', 'Ajustes y calibración'],
       image: '/lovable-uploads/934cd1b0-38af-4c69-a4d0-3581b6272b1e.png'
     },
     {
@@ -105,7 +105,7 @@ const ServicesSection = () => {
           </p>
           <button 
             className="bg-flame hover:bg-flame-dark text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 flame-glow"
-            onClick={() => window.open('https://wa.me/56912345678', '_blank')}
+            onClick={() => window.open('https://wa.me/56992312523', '_blank')}
           >
             Solicitar Cotización Gratuita
           </button>

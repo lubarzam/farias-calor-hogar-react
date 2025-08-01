@@ -52,7 +52,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <Button 
               className="bg-flame hover:bg-flame-dark text-white"
-              onClick={() => window.open('https://wa.me/56912345678', '_blank')}
+              onClick={() => window.open('https://wa.me/56992312523', '_blank')}
             >
               <Phone className="w-4 h-4 mr-2" />
               Contactar
@@ -89,7 +89,7 @@ const Header = () => {
               <Button 
                 className="bg-flame hover:bg-flame-dark text-white w-full mt-4 py-3"
                 onClick={() => {
-                  window.open('https://wa.me/56912345678', '_blank');
+                  window.open('https://wa.me/56992312523', '_blank');
                   setIsMenuOpen(false);
                 }}
               >

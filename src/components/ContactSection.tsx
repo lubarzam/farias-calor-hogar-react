@@ -23,7 +23,7 @@ ${formData.email ? `Mi email: ${formData.email}` : ''}
 ${formData.phone ? `Mi teléfono: ${formData.phone}` : ''}`;
     
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    window.open(`https://wa.me/56912345678?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/56992312523?text=${encodedMessage}`, '_blank');
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -34,8 +34,8 @@ ${formData.phone ? `Mi teléfono: ${formData.phone}` : ''}`;
   };
 
   const coverageAreas = [
-    'Vilcún', 'Freire', 'Pitrufquén', 'Gorbea', 'Loncoche',
-    'Toltén', 'Teodoro Schmidt', 'Saavedra', 'Carahue'
+    'Vilcún', 'Lautaro', 'Victoria', 'Traiguén', 'Freire', 'Pitrufquén', 'Gorbea',
+    'Toltén', 'Teodoro Schmidt', 'Imperial', 'Carahue'
   ];
 
   return (
@@ -101,7 +101,7 @@ ${formData.phone ? `Mi teléfono: ${formData.phone}` : ''}`;
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-flame focus:border-transparent transition-colors"
-                      placeholder="+56 9 1234 5678"
+                      placeholder="+56 9 92312523"
                     />
                   </div>
                 </div>
@@ -145,14 +145,14 @@ ${formData.phone ? `Mi teléfono: ${formData.phone}` : ''}`;
                   <Phone className="w-5 h-5 text-flame" />
                   <div>
                     <p className="font-medium text-charcoal">WhatsApp</p>
-                    <p className="text-gray-600">+56 9 1234 5678</p>
+                    <p className="text-gray-600">+56 9 92312523</p>
                   </div>
                 </div>
                 
                 <div className="pt-4">
                   <Button 
                     className="w-full bg-green-500 hover:bg-green-600 text-white"
-                    onClick={() => window.open('https://wa.me/56912345678', '_blank')}
+                    onClick={() => window.open('https://wa.me/56992312523', '_blank')}
                   >
                     <Phone className="w-4 h-4 mr-2" />
                     Escribir por WhatsApp
@@ -168,7 +168,7 @@ ${formData.phone ? `Mi teléfono: ${formData.phone}` : ''}`;
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Atendemos desde Vilcún hacia las siguientes comunas:
+                  Atendemos desde Vilcún a toda la Región de La Araucanía, incluyendo las siguientes comunas:
                 </p>
                 <div className="grid grid-cols-2 gap-2">
                   {coverageAreas.map((area, index) => (

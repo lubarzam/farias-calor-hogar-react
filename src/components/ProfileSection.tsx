@@ -36,7 +36,7 @@ const ProfileSection = () => {
                 <p className="text-lg leading-relaxed">
                   Con más de <strong className="text-flame">40 años de experiencia</strong> en el rubro de la calefacción, 
                   Fabián Farías se ha consolidado como uno de los técnicos más confiables y especializados 
-                  de La Araucanía.
+                  de La Araucanía y Región Metropolitana.
                 </p>
                 
                 <p className="text-lg leading-relaxed">
@@ -91,7 +91,7 @@ const ProfileSection = () => {
               <div className="mt-10">
                 <button 
                   className="bg-flame hover:bg-flame-dark text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 inline-flex items-center"
-                  onClick={() => window.open('https://wa.me/56912345678', '_blank')}
+                  onClick={() => window.open('https://wa.me/56992312523', '_blank')}
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   Conversar con Fabián

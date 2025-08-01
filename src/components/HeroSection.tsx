@@ -25,14 +25,14 @@ const HeroSection = () => {
           
           <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-2xl mx-auto">
             Más de 40 años de experiencia instalando, manteniendo y reparando 
-            sistemas de calefacción en La Araucanía
+            sistemas de calefacción en La Araucanía y Región Metropolitana
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button 
               size="lg"
               className="bg-flame hover:bg-flame-dark text-white px-8 py-4 text-lg flame-glow"
-              onClick={() => window.open('https://wa.me/56912345678', '_blank')}
+              onClick={() => window.open('https://wa.me/56992312523', '_blank')}
             >
               <Phone className="w-5 h-5 mr-2" />
               Solicita tu Instalación Hoy

@@ -92,7 +92,7 @@ const TestimonialsSection = () => {
           </p>
           <button 
             className="bg-flame hover:bg-flame-dark text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200"
-            onClick={() => window.open('https://wa.me/56912345678', '_blank')}
+            onClick={() => window.open('https://wa.me/56992312523', '_blank')}
           >
             Solicita tu Cotización Ahora
           </button>

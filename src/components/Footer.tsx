@@ -30,7 +30,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4 text-flame" />
-              <span className="text-gray-300">+56 9 1234 5678</span>
+              <span className="text-gray-300">+56 9 9231 2523</span>
             </div>
           </div>
 
@@ -54,10 +54,10 @@ const Footer = () => {
               Desde Vilcún hacia:
             </p>
             <ul className="space-y-1 text-gray-300 text-sm">
-              <li>• Freire • Pitrufquén</li>
-              <li>• Gorbea • Loncoche</li>
-              <li>• Toltén • Teodoro Schmidt</li>
-              <li>• Saavedra • Carahue</li>
+              <li>• Vilcún  &nbsp;&nbsp; • Lautaro</li>
+              <li>• Victoria  &nbsp;&nbsp; • Traiguén</li>
+              <li>• Gorbea  &nbsp;&nbsp; • Toltén</li>
+              <li>• Imperial  &nbsp;&nbsp; • Teodoro Schmidt</li>
             </ul>
           </div>
         </div>
