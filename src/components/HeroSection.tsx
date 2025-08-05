@@ -19,13 +19,13 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Especialistas en
-            <span className="block text-flame-light">Calefacción a Leña y Pellets</span>
+            <span className="block text-flame-light">Instalación de Estufas en Vilcún</span>
+            Especialistas en Calefacción a Leña y Pellets
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-2xl mx-auto">
-            Más de 40 años de experiencia instalando, manteniendo y reparando 
-            sistemas de calefacción en La Araucanía y Región Metropolitana
+            Más de 40 años instalando estufas en Vilcún, Freire, Pitrufquén y toda La Araucanía. 
+            Servicio técnico especializado para el clima de nuestra región.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

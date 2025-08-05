@@ -46,7 +46,8 @@ ${formData.phone ? `Mi teléfono: ${formData.phone}` : ''}`;
             Conversemos tu Proyecto
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Cuéntanos qué necesitas y te daremos la mejor solución para tu hogar
+            Instalación de estufas en Vilcún y alrededores. Te visitamos para evaluar tu proyecto 
+            y ofrecerte la mejor solución de calefacción para tu hogar.
           </p>
         </div>
 
@@ -168,7 +169,7 @@ ${formData.phone ? `Mi teléfono: ${formData.phone}` : ''}`;
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Atendemos desde Vilcún a toda la Región de La Araucanía, incluyendo las siguientes comunas:
+                  <strong>Base en Vilcún</strong> - Especialistas en instalación de estufas para toda La Araucanía:
                 </p>
                 <div className="grid grid-cols-2 gap-2">
                   {coverageAreas.map((area, index) => (

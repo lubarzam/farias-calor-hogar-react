@@ -6,8 +6,8 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Settings,
-      title: 'Instalación de Estufas y Cañones',
-      description: 'Instalación profesional de estufas a leña, pellets y cañones calefactores multimarcas con garantía de funcionamiento.',
+      title: 'Instalación de Estufas en Vilcún y Alrededores',
+      description: 'Instalación profesional de estufas a leña y pellets en Vilcún, Freire, Pitrufquén y comunas vecinas. Especializados en calefacción para el clima austral de La Araucanía.',
       features: ['Instalación certificada', 'Pruebas de seguridad', 'Inducción de uso',  'Garantía incluida'],
       image: estufasCombinadasImg
     },
@@ -43,8 +43,8 @@ const ServicesSection = () => {
             Nuestros Servicios
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Ofrecemos soluciones completas en calefacción, desde la instalación hasta el mantenimiento 
-            y reparación de tu sistema
+            Soluciones completas de calefacción en Vilcún y toda La Araucanía. Desde instalación de estufas 
+            hasta mantenimiento especializado para enfrentar los fríos inviernos australes.
           </p>
         </div>
 
